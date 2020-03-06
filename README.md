@@ -10,7 +10,7 @@ To use the element, connect the file in the standard way, e.g.
 
 ## Using
 
-Syntax is similar to `select` element syntax. Instead of the `option` element, the element `s-option` is used, e.g.
+Syntax of `select-search` is similar to `select` element syntax. Instead of the `option` element, the element `s-option` is used, e.g.
 
 ```html
 <select-search name="test" placeholder="input to search" required>
