@@ -118,7 +118,7 @@ class SearchSelectElement extends HTMLElement {
         }
         ::slotted(s-option.visible) {
           display: block;
-          padding: var(--select-search-item-background, 4px 2px);
+          padding: var(--select-search-item-padding, 4px 2px);
         }
         ::slotted(s-option.visible:hover) {
           background: var(--select-search-item-hover-background, #eeeeee) !important;
