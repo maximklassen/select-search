@@ -64,7 +64,7 @@ Property name                               |  CSS property type  |  Default val
 --select-search-list-height <br>*Maximal value of list height*|     height          |       200px     |
 --select-search-list-border                 |     border          |  1px solid #aaa |
 --select-search-list-border-radius          |     border-radius   |       2px       |
-**CSS properties of items: **               |                     |                 |
+**CSS properties of items:**               |                     |                 |
 --select-search-item-padding                |     padding         |     4px 2px     |
 --select-search-item-hover-background <br>*Background of mouse hover item*|     background      |     #eeeeee     |
 --select-search-item-focus-background <br>*Background of focused item*|     background      |     #eeeeee     |
