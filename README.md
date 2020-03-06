@@ -3,7 +3,7 @@
 ## Installation
 
 To use the element, connect the file in the standard way, e.g.
-***
+
 ```html
 <script src="https://your-site.com/js/select-search.js"></script>
 ```
@@ -11,7 +11,7 @@ To use the element, connect the file in the standard way, e.g.
 ## Using
 
 Syntax is similar to <select> element syntax, e.g.
-***
+
 ```html
 <select-search name="test" placeholder="input to search" required>
     <s-option value="1">First item</s-option>
@@ -23,7 +23,7 @@ Syntax is similar to <select> element syntax, e.g.
 ## Customizing
 
 Element <select-search> can be customized through special properties, e.g.
-***
+
 ```css
 select-search {
     --select-search-border: 1px solid red;
