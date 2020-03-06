@@ -1,5 +1,13 @@
 # Alternative select element with input and search functional
 
+This script registers a new element `select-search` in the browser. To ensure that the data from the element is sent from the form, when rendering, a hidden element (`input[type="hidden"]`) is added after the element, which tracks the value of the `select-search`.
+
+***
+**Attention!**
+Do not forget that this element will not be correctly displayed in a browser with scripts disabled.
+Consider this information when developing
+***
+
 ## Installation
 
 To use the element, connect the file in the standard way, e.g.
@@ -69,3 +77,23 @@ Property name                               |  CSS property type  |  Default val
 --select-search-item-hover-background <br>*Background of mouse hover item*|     background      |     #eeeeee     |
 --select-search-item-focus-background <br>*Background of focused item*|     background      |     #eeeeee     |
 --select-search-item-selected-background <br>*Background of selected item*    |     background      |     #f5f5f5     |
+
+## JavaScript events und properties
+
+**Tracked events:**
+
+`change`
+
+**Available properties**
+
+* `value` - current value of element (default `s-option[selected]`)
+* `displayVale` - current displayed value
+
+E.g.:
+
+```js
+document.querySelector('select-search').addEventListener('change',function(e){
+  console.log(e.target.displayValue);
+  console.log(e.target.value);
+});
+```
