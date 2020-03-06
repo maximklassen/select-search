@@ -10,7 +10,7 @@ To use the element, connect the file in the standard way, e.g.
 
 ## Using
 
-Syntax is similar to <select> element syntax, e.g.
+Syntax is similar to `select` element syntax, e.g.
 
 ```html
 <select-search name="test" placeholder="input to search" required>
@@ -22,7 +22,7 @@ Syntax is similar to <select> element syntax, e.g.
 
 ## Customizing
 
-Element <select-search> can be customized through special properties, e.g.
+Element `select-search` can be customized through special properties, e.g.
 
 ```css
 select-search {
@@ -34,49 +34,37 @@ select-search {
 
 ### CSS-properties of element
 
-                                            |  CSS property type  |  Default value  |
+
+Property name                               |  CSS property type  |  Default value  |
 --------------------------------------------|---------------------|-----------------|
-CSS general properties:                     |                     |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS general properties:**                 |                     |                 |
 --select-search-border                      |     border          |  1px solid #aaa |
 --select-search-border-radius               |     border-radius   |       2px       |
 --select-search-background                  |     background      |      initial    |
 --select-search-color                       |     color           |      initial    |
 --select-search-font                        |     font            |      initial    |
---------------------------------------------|---------------------|-----------------|
-CSS properties of arrow block:              |                     |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of arrow block:**          |                     |                 |
 --select-search-arrow-symbol                |     unicode string  |     '\2304'     |
 --select-search-arrow-width                 |     width           |       20px      |
 --select-search-arrow-background            |     background      |    transparent  |
---------------------------------------------|---------------------|-----------------|
-CSS properties of input field:              |                     |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of input field:**          |                     |                 |
 --select-search-input-padding               |     padding         |        4px      |
 --select-search-input-color                 |     color           |      initial    |
 --select-search-input-font                  |     font            |      initial    |
---------------------------------------------|---------------------|-----------------|
-CSS properties of input field - result not found:|                |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of input field - result not found:**|            |                 |
 --select-search-notvalued-border            |     border          |  1px solid #aaa |
 --select-search-notvalued-background        |     background      |    transparent  |
 --select-search-notvalued-color             |     color           |      initial    |
---------------------------------------------|---------------------|-----------------|
-CSS properties of input field - required is empty:|               |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of input field - required is empty:**|           |                 |
 --select-search-errored-border              |     border          |  1px solid #aaa |
 --select-search-errored-background          |     background      |    transparent  |
 --select-search-errored-color               |     color           |      initial    |
---------------------------------------------|---------------------|-----------------|
-CSS properties of items list:               |                     |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of items list:**           |                     |                 |
 --select-search-list-background             |     background      |      #ffffff    |
 --select-search-list-height <br>*Maximal value of list height*|     height          |       200px     |
 --select-search-list-border                 |     border          |  1px solid #aaa |
 --select-search-list-border-radius          |     border-radius   |       2px       |
---------------------------------------------|---------------------|-----------------|
-CSS properties of items:                    |                     |                 |
---------------------------------------------|---------------------|-----------------|
+**CSS properties of items: **               |                     |                 |
 --select-search-item-padding                |     padding         |     4px 2px     |
 --select-search-item-hover-background <br>*Background of mouse hover item*|     background      |     #eeeeee     |
 --select-search-item-focus-background <br>*Background of focused item*|     background      |     #eeeeee     |
