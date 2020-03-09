@@ -10,7 +10,7 @@ Consider this information when developing
 
 ## Installation
 
-To use the element, connect the file in the standard way, e.g.
+To use the element, connect the file in the end of document, e.g.
 
 ```html
 <script src="https://your-site.com/js/select-search.js"></script>
