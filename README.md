@@ -93,7 +93,7 @@ E.g.:
 
 ```js
 document.querySelector('select-search').addEventListener('change',function(e){
-  console.log(e.target.displayValue);
-  console.log(e.target.value);
+  console.log(e.target.displayValue); // "Second item" (from the example of using)
+  console.log(e.target.value); // "2" (from the example of using)
 });
 ```
